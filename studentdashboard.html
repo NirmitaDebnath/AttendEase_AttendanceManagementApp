@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="studentdash.css">
+    <title>Student Dashboard</title>
+</head>
+<body>
+    <header>
+        AttendEase
+    </header>
+
+    <div class="dashboard-container">
+     
+        <select>
+            <option value="select">Select Subject</option>
+            <option value="cse">Computer Science Engineering</option>
+            <option value="ece">Electronics and Communication Engineering</option>
+            <option value="mech">Mechanical Engineering</option>
+            <option value="civil">Civil Engineering</option>
+            <option value="ee">Electrical Engineering</option>
+            <option value="pe">Production Engineering</option>
+            <option value="ce">Chemical Engineering</option>
+        </select>
+        <br>
+        <button type="submit">Show</button>
+        <br>
+    
+        <div class="attendance">
+            <h2>Attendance Percentage</h2>
+            <div class="percentage-display">
+                <p>75%</p>
+            </div>
+        </div>
+        
+        <div class="class-routine">
+            <h2>Class Routine</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Subject</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>9:00 AM - 10:30 AM</td>
+                        <td>OOP</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>11:00 AM - 12:30 PM</td>
+                        <td>DBMS</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>2:00 PM - 3:30 PM</td>
+                        <td>MIS</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>10:00 AM - 11:30 AM</td>
+                        <td>Computer Science</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>1:00 PM - 2:30 PM</td>
+                        <td>Engineering Drawing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="already-attended">
+            <h2>Already Attended</h2>
+            <ul>
+                <li>OOP - 2 classes</li>
+                <li>DBMS - 1 class</li>
+                <li>CAD/CAM - 3 classes</li>
+                <li>Computer Science - 1 class</li>
+                <li>Engineering Drawing - 0 classes</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

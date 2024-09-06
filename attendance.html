@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance</title>
+    <link rel="stylesheet" href="attendance.css">
+</head>
+<body>
+
+<h1>Student Attendance</h1>
+
+Date-  6 month attendance
+<form id="attendance-form">
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Present</th>
+                <th>Absent</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Student 1</td>
+                <td class="radio-buttons">
+                    <label>
+                        <input type="radio" name="student1" value="present"> Present
+                    </label>
+                   </td>
+                    <td>
+                    <label>
+                        <input type="radio" name="student1" value="absent"> Absent
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Student 2</td>
+                <td class="radio-buttons">
+                    <label>
+                        <input type="radio" name="student2" value="present"> Present
+                    </label>
+                </td>
+                <td >
+                    <label>
+                        <input type="radio" name="student2" value="absent"> Absent
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Student 3</td>
+                <td class="radio-buttons">
+                    <label>
+                        <input type="radio" name="student3" value="present"> Present
+                    </label>
+                </td>
+                <td>
+                    <label>
+                        <input type="radio" name="student3" value="absent"> Absent
+                    </label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="submit">Submit Attendance</button>
+</form>
+
+</body>
+</html>

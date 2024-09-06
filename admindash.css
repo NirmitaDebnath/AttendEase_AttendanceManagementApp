@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1.5em;
+}
+
+header{
+    background-color: rgb(208, 224, 230);
+   padding: 30px;
+   font-weight: bold;
+   color: rgb(12, 61, 81);
+   text-align: center;
+}
+.admindashboard {
+    margin: 40px;
+    padding: 40px;
+    background-color: rgb(212, 232, 232);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admindashboard img {
+    height: 30vh;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.admindashboard select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button {
+    background-color: orange;
+    color: #fff;
+    border: 3px solid orange;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: orange;
+}
+.classroom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #487caf;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #dee2e6;
+    color: rgb(128, 169, 194);
+}

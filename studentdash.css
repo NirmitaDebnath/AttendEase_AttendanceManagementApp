@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(208, 224, 230);
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(12, 61, 81);
+    text-align: center;
+}
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.attendance {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.attendance h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.percentage-display {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.class-routine, .already-attended {
+    margin-top: 20px;
+}
+
+.class-routine table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.class-routine table, .class-routine th, .class-routine td {
+    border: 1px solid #ddd;
+}
+
+.class-routine th, .class-routine td {
+    padding: 10px;
+    text-align: left;
+}
+
+.class-routine th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.already-attended ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.already-attended li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.already-attended li:last-child {
+    border-bottom: none;
+}
